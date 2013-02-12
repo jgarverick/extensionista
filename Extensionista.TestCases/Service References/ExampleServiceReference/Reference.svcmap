@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="aba64eed-5b27-4abf-8e5a-0bfb939d8b7f" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8081/Tests" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Tests.xsd" MetadataType="Schema" ID="e6435991-30fb-4e2e-a3d6-6e06e953bb52" SourceId="1" SourceUrl="http://localhost:8081/Tests?xsd=xsd0" />
+    <MetadataFile FileName="Tests.disco" MetadataType="Disco" ID="d6252a1f-71b6-4717-b052-5930425535e6" SourceId="1" SourceUrl="http://localhost:8081/Tests?disco" />
+    <MetadataFile FileName="Tests1.xsd" MetadataType="Schema" ID="866e2891-fbb4-46c8-876e-e207e9227737" SourceId="1" SourceUrl="http://localhost:8081/Tests?xsd=xsd1" />
+    <MetadataFile FileName="SampleServiceClass.wsdl" MetadataType="Wsdl" ID="c904063a-1d6a-48dc-a4b7-74471029b90e" SourceId="1" SourceUrl="http://localhost:8081/Tests?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

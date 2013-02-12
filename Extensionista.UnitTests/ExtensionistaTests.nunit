@@ -1,0 +1,37 @@
+﻿<NUnitProject>
+  <Settings activeconfig="Debug" />
+  <Config name="Debug" binpathtype="Auto">
+    <assembly path="bin\Debug\Extensionista.UnitTests.exe" />
+    <assembly path="bin\Debug\Extensionista.UnitTests.exe" />
+    <assembly path="bin\Debug\Extensionista.UnitTests.dll" />
+    <assembly path="bin\Debug\Extensionista.UnitTests.exe" />
+    <assembly path="bin\Debug\Extensionista.UnitTests.exe" />
+    <assembly path="bin\Debug\Extensionista.UnitTests.dll" />
+    <assembly path="bin\Debug\Extensionista.UnitTests.dll" />
+    <assembly path="bin\Debug\Extensionista.UnitTests.dll" />
+  </Config>
+  <Config name="Release" binpathtype="Auto">
+    <assembly path="bin\Release\Extensionista.UnitTests.exe" />
+    <assembly path="bin\Release\Extensionista.UnitTests.exe" />
+    <assembly path="bin\Release\Extensionista.UnitTests.dll" />
+    <assembly path="bin\Release\Extensionista.UnitTests.exe" />
+    <assembly path="bin\Release\Extensionista.UnitTests.dll" />
+    <assembly path="bin\Release\Extensionista.UnitTests.dll" />
+  </Config>
+  <Config name="Debug|x86" binpathtype="Auto">
+    <assembly path="bin\Debug\Extensionista.UnitTests.exe" />
+    <assembly path="bin\Debug\Extensionista.UnitTests.exe" />
+    <assembly path="bin\Debug\Extensionista.UnitTests.dll" />
+    <assembly path="bin\Debug\Extensionista.UnitTests.exe" />
+    <assembly path="bin\Debug\Extensionista.UnitTests.dll" />
+    <assembly path="bin\Debug\Extensionista.UnitTests.dll" />
+  </Config>
+  <Config name="Release|x86" binpathtype="Auto">
+    <assembly path="bin\Release\Extensionista.UnitTests.exe" />
+    <assembly path="bin\Release\Extensionista.UnitTests.exe" />
+    <assembly path="bin\Release\Extensionista.UnitTests.dll" />
+    <assembly path="bin\Release\Extensionista.UnitTests.exe" />
+    <assembly path="bin\Release\Extensionista.UnitTests.dll" />
+    <assembly path="bin\Release\Extensionista.UnitTests.dll" />
+  </Config>
+</NUnitProject>
