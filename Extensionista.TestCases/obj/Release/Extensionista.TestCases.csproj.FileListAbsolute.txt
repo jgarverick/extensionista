@@ -1,0 +1,5 @@
+C:\Users\Josh\Documents\Visual Studio 2010\Projects\git-extensionista\Extensionista.TestCases\bin\Release\Extensionista.TestCases.dll.config
+C:\Users\Josh\Documents\Visual Studio 2010\Projects\git-extensionista\Extensionista.TestCases\bin\Release\Extensionista.TestCases.dll
+C:\Users\Josh\Documents\Visual Studio 2010\Projects\git-extensionista\Extensionista.TestCases\bin\Release\Extensionista.TestCases.pdb
+C:\Users\Josh\Documents\Visual Studio 2010\Projects\git-extensionista\Extensionista.TestCases\obj\Release\Extensionista.TestCases.dll
+C:\Users\Josh\Documents\Visual Studio 2010\Projects\git-extensionista\Extensionista.TestCases\obj\Release\Extensionista.TestCases.pdb

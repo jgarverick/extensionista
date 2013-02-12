@@ -73,20 +73,8 @@
     <Content Include="InstallExtensionista.nsi">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="NuGet.exe">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Extensionista.nuspec">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="nuspec.2010.7.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="nuspec.2011.8.xsd">
-      <SubType>Designer</SubType>
-    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup />

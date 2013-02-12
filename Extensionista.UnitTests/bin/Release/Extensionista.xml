@@ -1,0 +1,295 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Extensionista</name>
+    </assembly>
+    <members>
+        <member name="M:Extensionista.StringExtensions.ToDelimitedString(System.String[],System.Char)">
+            <summary>
+            Extension method used to concatenate a string array into a delimited string.
+            </summary>
+            <param name="array">The array which will use the extension method.</param>
+            <param name="delimiter">The character that will serve as the delimiter.</param>
+            <returns>The contents of the string array in one string, separated by the
+            character noted by the delimiter.</returns>
+        </member>
+        <member name="M:Extensionista.StringExtensions.ToDelimitedString(System.Collections.Generic.List{System.String},System.Char)">
+            <summary>
+            Extension method used to concatenate a List of strings into a delimited string.
+            </summary>
+            <param name="list">The List which will use the extension method.</param>
+            <param name="delimiter">The character that will serve as the delimiter.</param>
+            <returns>The contents of the string array in one string, separated by the
+            character noted by the delimiter.</returns>
+        </member>
+        <member name="M:Extensionista.StringExtensions.EncodeBase64(System.String)">
+            <summary>
+            Extension method used to encode a string into a Base64 string.
+            </summary>
+            <param name="source">The source string to convert.</param>
+            <returns>A Base64 encoded string.</returns>
+            <remarks>This method implies an ASCII encoding.</remarks>
+        </member>
+        <member name="M:Extensionista.StringExtensions.DecodeBase64(System.String)">
+            <summary>
+            Extension method used to decode a Base64 string.
+            </summary>
+            <param name="source">The Base64 encoded string to decode.</param>
+            <returns>A decoded string.</returns>
+            <remarks>This method implies an ASCII encoding.</remarks>
+        </member>
+        <member name="M:Extensionista.ConversionExtensions.GetConverter(System.Object)">
+            <summary>
+            Retrieves a TypeConverter for a given object.
+            </summary>
+            <param name="o">The Object variable that will utilize the 
+            extension method.</param>
+            <returns>A TypeConverter that corresponds to the supplied variable's type.  If
+            no specific type can be matched, a generic TypeConverter will be returned.</returns>
+        </member>
+        <member name="M:Extensionista.ConversionExtensions.GetConverter(System.Type)">
+            <summary>
+            Retrieves a TypeConverter for a given type.
+            </summary>
+            <param name="type">The System.Type variable that will utilize the 
+            extension method.</param>
+            <returns>A TypeConverter that corresponds to the type supplied.  If
+            no specific type can be matched, a generic TypeConverter will be returned.</returns>
+        </member>
+        <member name="M:Extensionista.ConversionExtensions.ConvertValue``1(``0,System.Object)">
+            <summary>
+            Converts the supplied object into an object of type T.
+            </summary>
+            <typeparam name="T">The type that represents the conversion target type.</typeparam>
+            <param name="type">The variable of type T that will utilize the 
+            extension method.</param>
+            <param name="value">The object to convert.</param>
+            <returns>An object of type T. If the conversion was successful, the
+            return object will contain the converted value.  If not, the default value
+            for the type will be returned.</returns>
+        </member>
+        <member name="M:Extensionista.ConversionExtensions.ConvertValue``1(System.Object)">
+            <summary>
+            Converts a variable object into an object of the type specified by T.
+            </summary>
+            <typeparam name="T">The type that represents the conversion target type.</typeparam>
+            <param name="value">The Object variable that will utilize the 
+            extension method.</param>
+            <returns>An object of type T. If the conversion was successful, the
+            return object will contain the converted value.  If not, the default value
+            for the type will be returned.</returns>
+        </member>
+        <member name="T:Extensionista.ValidationExtensions">
+            <summary>
+            Extensions for validating objects using System.ComponentModel.DataAnnotations.
+            </summary>
+        </member>
+        <member name="M:Extensionista.ValidationExtensions.TryValidate(System.Object,System.Boolean)">
+            <summary>
+            Checks to see if a given object passes validation.
+            </summary>
+            <param name="obj">The object to validate.</param>
+            <param name="validateAllProperties">Optional. Indicates whether to check 
+            all properties on the object (defaults to true).</param>
+            <returns>True if the object passes validation; false if it does not.</returns>
+        </member>
+        <member name="M:Extensionista.ValidationExtensions.Validate(System.Object,System.Boolean)">
+            <summary>
+            Validates a given object and returns any associated validation errors.
+            </summary>
+            <param name="obj">The object to validate.</param>
+            <param name="validateAllProperties">Optional. Indicates whether to check 
+            all properties on the object (defaults to true).</param>
+            <returns>An empty list of ValidationResult objects if no errors are found;
+            a populated list if errors are found.</returns>
+        </member>
+        <member name="M:Extensionista.ReflectionExtensions.Implements``1(System.Reflection.Assembly)">
+            <summary>
+            Extension method that finds types which implement an interface.
+            </summary>
+            <typeparam name="T">An interface of type T.</typeparam>
+            <param name="asm">The assembly that will utilize the extension method.</param>
+            <returns>An array of System.Type containing any types within the assembly
+            that implement the interface specified by T.</returns>
+        </member>
+        <member name="M:Extensionista.ReflectionExtensions.Implements``1(System.Type)">
+            <summary>
+            Extension method that determines whether or not a type implements an interface.
+            </summary>
+            <typeparam name="T">An interface of type T.</typeparam>
+            <param name="type">The type that will utilize the extension method.</param>
+            <returns>True if the type implements T; false if it does not, or if T is
+            not an interface.</returns>
+        </member>
+        <member name="M:Extensionista.ReflectionExtensions.AttributedWith``1(System.Reflection.Assembly)">
+            <summary>
+            Extension method used to find any types within an assembly that use a
+            particular attribute.
+            </summary>
+            <typeparam name="T">An attribute class to search for.</typeparam>
+            <param name="asm">The assembly that will utilize the extension method.</param>
+            <returns>An array of System.Type containing any types that use the 
+            attribute class T.</returns>
+        </member>
+        <member name="M:Extensionista.ReflectionExtensions.AttributedWith``1(System.Type)">
+            <summary>
+            Extension method that determines whether or not a type contains a specific attribute.
+            </summary>
+            <typeparam name="T">An attribute class to search for.</typeparam>
+            <param name="type">The type that will utilize the extension method.</param>
+            <returns>True if the type is decorated with the attribute specified by T;
+            false if it does not, or if T is not an attribute.</returns>
+        </member>
+        <member name="M:Extensionista.ReflectionExtensions.AttributedWith``1(System.Reflection.MemberInfo[])">
+            <summary>
+            Extension method that determines whether or not an array of MemberInfo objects contains a specific attribute.
+            </summary>
+            <typeparam name="T">An attribute class to search for.</typeparam>
+            <param name="type">The type that will utilize the extension method.</param>
+            <returns>True if any MemberInfo is decorated with the attribute specified by T;
+            false if it does not, or if T is not an attribute.</returns>
+        </member>
+        <member name="M:Extensionista.ReflectionExtensions.AttributedWith``1(System.Collections.Generic.IEnumerable{System.Reflection.MemberInfo})">
+            <summary>
+            Extension method that determines whether or not a collection of MemberInfo objects contains a specific attribute.
+            </summary>
+            <typeparam name="T">An attribute class to search for.</typeparam>
+            <param name="type">The type that will utilize the extension method.</param>
+            <returns>True if any MemberInfo is decorated with the attribute specified by T;
+            false if it does not, or if T is not an attribute.</returns>
+        </member>
+        <member name="M:Extensionista.ReflectionExtensions.AttributedWith``1(System.Reflection.MemberInfo)">
+            <summary>
+            Extension method that determines whether or not a member contains a specific attribute.
+            </summary>
+            <typeparam name="T">An attribute class to search for.</typeparam>
+            <param name="type">The member that will utilize the extension method (FieldInfo, MemberInfo, PropertyInfo).</param>
+            <returns>True if the MemberInfo is decorated with the attribute specified by T;
+            false if it does not, or if T is not an attribute.</returns>
+        </member>
+        <member name="M:Extensionista.ReflectionExtensions.Hitch``1(System.Object,System.String,``0)">
+            <summary>
+            Connects an event handler (or code block) to a named event.
+            </summary>
+            <typeparam name="T">The type of event handler.</typeparam>
+            <param name="value">The object using the extension method.</param>
+            <param name="eventName">The name of the event to attach the action to.</param>
+            <param name="action">The event handler or anonymous delegate to 
+            associate with the event handler.</param>
+        </member>
+        <member name="M:Extensionista.ReflectionExtensions.Hitch``1(System.Object,System.String,System.Collections.Generic.List{``0})">
+            <summary>
+            Connects a list of event handlers (or code blocks) to a named event.
+            </summary>
+            <typeparam name="T">The type of event handler.</typeparam>
+            <param name="value">The object using the extension method.</param>
+            <param name="eventName">The name of the event to attach the action to.</param>
+            <param name="actions">The collection of event handlers or anonymous delegates to 
+            associate with the event handler.</param>
+        </member>
+        <member name="M:Extensionista.ReflectionExtensions.SyncProperties(System.Object,System.Object)">
+            <summary>
+            Synchronizes properties of the same name and type between two objects.
+            </summary>
+            <param name="source">The object containing the properties you wish to replicate.</param>
+            <param name="destination">The object that will receive the property values from the source.</param>
+            <returns>An object as defined by the destination, with values in any matching properties.</returns>
+        </member>
+        <member name="M:Extensionista.ReflectionExtensions.ExtractAttribute``1(System.Type)">
+            <summary>
+            Extracts a single attribute from a type.
+            </summary>
+            <typeparam name="T">The type of attribute to look for.</typeparam>
+            <param name="type">The type to interrogate.</param>
+            <returns>An attribute instance of type T.</returns>
+        </member>
+        <member name="M:Extensionista.ReflectionExtensions.ExtractAttribute``1(System.Reflection.MemberInfo)">
+            <summary>
+            Extracts a single attribute from a member (method, property, field).
+            </summary>
+            <typeparam name="T">The type of attribute to look for.</typeparam>
+            <param name="member">The MemberInfo object to interrogate.</param>
+            <returns>An attribute instance of type T.</returns>
+        </member>
+        <member name="M:Extensionista.ReflectionExtensions.ExtractAttributes``1(System.Type,System.Boolean)">
+            <summary>
+            Extracts attributes from a type and optionally from any members of that type.
+            </summary>
+            <typeparam name="T">The type of attribute to look for.</typeparam>
+            <param name="type">The type to interrogate.</param>
+            <param name="checkMembers">Flag that indicates whether or not to check the type's members for the attribute.</param>
+            <returns>A list of attribute instances of type T.</returns>
+        </member>
+        <member name="M:Extensionista.ReflectionExtensions.ExtractAttributes``1(System.Reflection.MemberInfo)">
+            <summary>
+            Extracts attributes from a type and optionally from any members of that type.
+            </summary>
+            <typeparam name="T">The type of attribute to look for.</typeparam>
+            <param name="info">The type to interrogate.</param>
+            <param name="checkMembers">Flag that indicates whether or not to check the type's members for the attribute.</param>
+            <returns>A list of attribute instances of type T.</returns>
+        </member>
+        <member name="M:Extensionista.DateTimeExtensions.CompareQuarter(System.DateTime,System.DateTime)">
+            <summary>
+            Extension method used to compare two dates and their respective quarters.
+            </summary>
+            <param name="initialDate">The DateTime variable that will utilize the 
+            extension method.</param>
+            <param name="dateToCompare">The DateTime value to compare against.</param>
+            <returns>True if both dates are within the same quarter; false if they are not.</returns>
+        </member>
+        <member name="M:Extensionista.DateTimeExtensions.GetQuarter(System.DateTime)">
+            <summary>
+            Extension method used to retrieve the quarter associated with a date.
+            </summary>
+            <param name="dateToCheck">The DateTime variable that will utilize the extension
+            method.</param>
+            <returns>An integer (1,2,3,4) corresponding to the calendar quarter in which
+            the date resides.</returns>
+        </member>
+        <member name="M:Extensionista.DateTimeExtensions.ClosestBusinessDay(System.DateTime)">
+            <summary>
+            Extension method used to determine the closest working day to a specific date.
+            </summary>
+            <param name="dateToCheck">The DateTime variable that will use the extenison method.</param>
+            <returns>A DateTime value that corresponds to the closest business day
+            in relation to the supplied date. This does not take into consideration
+            any holidays and assumes a Monday to Friday business week.</returns>
+        </member>
+        <member name="M:Extensionista.TaskBasedExtensions.RunTaskBlocking``2(System.Collections.Generic.List{``0},System.Func{``0,``1},System.Int32)">
+            <summary>
+            Executes a specified function on a collection via a BlockingCollection.
+            </summary>
+            <typeparam name="S">The type of source objects.</typeparam>
+            <typeparam name="T">The type of return objects.</typeparam>
+            <param name="objects">The collection using the extension method.</param>
+            <param name="action">The function to execute.</param>
+            <param name="limit">Optional. The upper limit of items to add to the collection 
+            before blocking additional items.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Extensionista.TaskBasedExtensions.RunTaskAsync``1(System.Collections.Generic.List{``0},System.Action{``0})">
+            <summary>
+            Executes an action on a list of objects using Tasks.
+            </summary>
+            <typeparam name="T">The type of objects in the collection, and the type of object
+            expected by the action.</typeparam>
+            <param name="objects">The collection using the extension method.</param>
+            <param name="action">The action or anonymous code block to execute.</param>
+        </member>
+        <member name="M:Extensionista.TaskBasedExtensions.RunTaskParallel``1(System.Collections.Generic.List{``0},System.Action{``0})">
+            <summary>
+            Executes an action on a list of objects utilizing Parallel loops and Tasks.
+            </summary>
+            <typeparam name="T">The type of objects in the collection, and the type of object
+            expected by the action.</typeparam>
+            <param name="objects">The collection using the extension method.</param>
+            <param name="action">The action or anonymous code block to execute.</param>
+        </member>
+        <member name="T:Extensionista.ServiceOrientedExtensions">
+            <summary>
+            
+            </summary>
+        </member>
+    </members>
+</doc>

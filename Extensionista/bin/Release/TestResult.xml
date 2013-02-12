@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Users\Josh\Documents\Visual Studio 2010\Projects\git-extensionista\Extensionista.UnitTests\bin\Release\Extensionista.UnitTests.exe" total="24" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2013-02-11" time="22:54:02">
+  <environment nunit-version="2.5.10.11092" clr-version="4.0.30319.18033" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="C:\Users\Josh\Documents\Visual Studio 2010\Projects\git-extensionista\Extensionista\bin\Release" machine-name="BASSMAN-NETBOOK" user="Josh" user-domain="bassman-netbook" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="C:\Users\Josh\Documents\Visual Studio 2010\Projects\git-extensionista\Extensionista.UnitTests\bin\Release\Extensionista.UnitTests.exe" executed="True" result="Success" success="True" time="1.193" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="Extensionista" executed="True" result="Success" success="True" time="1.178" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="UnitTests" executed="True" result="Success" success="True" time="1.177" asserts="0">
+            <results>
+              <test-suite type="TestFixture" name="ConversionExtensionTests" executed="True" result="Success" success="True" time="0.143" asserts="0">
+                <results>
+                  <test-case name="Extensionista.UnitTests.ConversionExtensionTests.TestGetConverterKnownTypes" executed="True" result="Success" success="True" time="0.123" asserts="14" />
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="DateTimeExtensionTests" executed="True" result="Success" success="True" time="0.037" asserts="0">
+                <results>
+                  <test-case name="Extensionista.UnitTests.DateTimeExtensionTests.TestClosestBusinessDay" executed="True" result="Success" success="True" time="0.016" asserts="3" />
+                  <test-case name="Extensionista.UnitTests.DateTimeExtensionTests.TestCompareQuarter" executed="True" result="Success" success="True" time="0.006" asserts="8" />
+                  <test-case name="Extensionista.UnitTests.DateTimeExtensionTests.TestGetQuarter" executed="True" result="Success" success="True" time="0.006" asserts="4" />
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="ExceptionExtensionTests" executed="True" result="Success" success="True" time="0.042" asserts="0">
+                <results>
+                  <test-case name="Extensionista.UnitTests.ExceptionExtensionTests.TestUnwindMessageOnly" executed="True" result="Success" success="True" time="0.040" asserts="3" />
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="ReflectorExtensionTests" executed="True" result="Success" success="True" time="0.168" asserts="0">
+                <results>
+                  <test-case name="Extensionista.UnitTests.ReflectorExtensionTests.TestAttributedWithAssemblyFail" executed="True" result="Success" success="True" time="0.058" asserts="1" />
+                  <test-case name="Extensionista.UnitTests.ReflectorExtensionTests.TestAttributedWithAssemblyPass" executed="True" result="Success" success="True" time="0.020" asserts="3" />
+                  <test-case name="Extensionista.UnitTests.ReflectorExtensionTests.TestAttributedWithTypeFail" executed="True" result="Success" success="True" time="0.016" asserts="2" />
+                  <test-case name="Extensionista.UnitTests.ReflectorExtensionTests.TestAttributedWithTypePass" executed="True" result="Success" success="True" time="0.025" asserts="4" />
+                  <test-case name="Extensionista.UnitTests.ReflectorExtensionTests.TestImplementsAssemblyFail" executed="True" result="Success" success="True" time="0.005" asserts="1" />
+                  <test-case name="Extensionista.UnitTests.ReflectorExtensionTests.TestImplementsAssemblyPass" executed="True" result="Success" success="True" time="0.002" asserts="2" />
+                  <test-case name="Extensionista.UnitTests.ReflectorExtensionTests.TestImplementsTypeFail" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="Extensionista.UnitTests.ReflectorExtensionTests.TestImplementsTypePass" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="ServiceOrientedExtensionTests" executed="True" result="Success" success="True" time="0.002" asserts="0">
+                <results>
+                  <test-case name="Extensionista.UnitTests.ServiceOrientedExtensionTests.TestGetServiceHost" executed="True" result="Success" success="True" time="0.001" asserts="0" />
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="StringExtensionTests" executed="True" result="Success" success="True" time="0.015" asserts="0">
+                <results>
+                  <test-case name="Extensionista.UnitTests.StringExtensionTests.TestBase64Methods" executed="True" result="Success" success="True" time="0.003" asserts="1" />
+                  <test-case name="Extensionista.UnitTests.StringExtensionTests.TestToDelimitedArray" executed="True" result="Success" success="True" time="0.005" asserts="3" />
+                  <test-case name="Extensionista.UnitTests.StringExtensionTests.TestToDelimitedList" executed="True" result="Success" success="True" time="0.002" asserts="3" />
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="TaskBasedExtensionTests" executed="True" result="Success" success="True" time="0.493" asserts="0">
+                <results>
+                  <test-case name="Extensionista.UnitTests.TaskBasedExtensionTests.TestHitch" executed="True" result="Success" success="True" time="0.022" asserts="2" />
+                  <test-case name="Extensionista.UnitTests.TaskBasedExtensionTests.TestRunTaskAsync" executed="True" result="Success" success="True" time="0.014" asserts="0" />
+                  <test-case name="Extensionista.UnitTests.TaskBasedExtensionTests.TestRunTaskBlocking" executed="True" result="Success" success="True" time="0.180" asserts="1" />
+                  <test-case name="Extensionista.UnitTests.TaskBasedExtensionTests.TestRunTaskBlockingLimited" executed="True" result="Success" success="True" time="0.220" asserts="1" />
+                  <test-case name="Extensionista.UnitTests.TaskBasedExtensionTests.TestRunTaskParallel" executed="True" result="Success" success="True" time="0.048" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="ValidationExtensionTests" executed="True" result="Success" success="True" time="0.238" asserts="0">
+                <results>
+                  <test-case name="Extensionista.UnitTests.ValidationExtensionTests.TestObjectFail" executed="True" result="Success" success="True" time="0.230" asserts="2" />
+                  <test-case name="Extensionista.UnitTests.ValidationExtensionTests.TestObjectPass" executed="True" result="Success" success="True" time="0.004" asserts="1" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

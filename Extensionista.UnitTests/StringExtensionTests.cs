@@ -29,5 +29,12 @@ namespace Extensionista.UnitTests
             Assert.IsTrue(concat.Split('|').Count() == 3);
             Assert.IsFalse(concat.EndsWith("|"));
         }
+
+        [Test]
+        public void TestBase64Methods()
+        {
+            string testString = "The quick brown fox jumps over the lazy d0g.";
+            Assert.AreEqual(testString, (testString.EncodeBase64()).DecodeBase64());
+        }
     }
 }

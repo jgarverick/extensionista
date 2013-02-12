@@ -32,5 +32,25 @@ namespace Extensionista
             list.ForEach(arr => retval += arr + delimiter.ToString());
             return retval.Length > 0 ? retval.Substring(0, retval.Length - 1) : string.Empty;
         }
+        /// <summary>
+        /// Extension method used to encode a string into a Base64 string.
+        /// </summary>
+        /// <param name="source">The source string to convert.</param>
+        /// <returns>A Base64 encoded string.</returns>
+        /// <remarks>This method implies an ASCII encoding.</remarks>
+        public static string EncodeBase64(this string source)
+        {
+            return string.IsNullOrEmpty(source) ? string.Empty : Convert.ToBase64String(Encoding.ASCII.GetBytes(source));
+        }
+        /// <summary>
+        /// Extension method used to decode a Base64 string.
+        /// </summary>
+        /// <param name="source">The Base64 encoded string to decode.</param>
+        /// <returns>A decoded string.</returns>
+        /// <remarks>This method implies an ASCII encoding.</remarks>
+        public static string DecodeBase64(this string source)
+        {
+            return string.IsNullOrEmpty(source) ? string.Empty : Encoding.ASCII.GetString(Convert.FromBase64String(source));
+        }
     }
 }

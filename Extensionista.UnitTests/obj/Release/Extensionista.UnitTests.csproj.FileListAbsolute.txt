@@ -1,0 +1,17 @@
+C:\Users\Josh\Documents\Visual Studio 2010\Projects\git-extensionista\Extensionista.UnitTests\bin\Release\InstallExtensionista.nsi
+C:\Users\Josh\Documents\Visual Studio 2010\Projects\git-extensionista\Extensionista.UnitTests\bin\Release\NuGet.exe
+C:\Users\Josh\Documents\Visual Studio 2010\Projects\git-extensionista\Extensionista.UnitTests\bin\Release\Extensionista.UnitTests.exe
+C:\Users\Josh\Documents\Visual Studio 2010\Projects\git-extensionista\Extensionista.UnitTests\bin\Release\Extensionista.UnitTests.pdb
+C:\Users\Josh\Documents\Visual Studio 2010\Projects\git-extensionista\Extensionista.UnitTests\bin\Release\Extensionista.dll
+C:\Users\Josh\Documents\Visual Studio 2010\Projects\git-extensionista\Extensionista.UnitTests\bin\Release\Extensionista.TestCases.dll
+C:\Users\Josh\Documents\Visual Studio 2010\Projects\git-extensionista\Extensionista.UnitTests\bin\Release\nunit-console-runner.dll
+C:\Users\Josh\Documents\Visual Studio 2010\Projects\git-extensionista\Extensionista.UnitTests\bin\Release\nunit.framework.dll
+C:\Users\Josh\Documents\Visual Studio 2010\Projects\git-extensionista\Extensionista.UnitTests\bin\Release\nunit.util.dll
+C:\Users\Josh\Documents\Visual Studio 2010\Projects\git-extensionista\Extensionista.UnitTests\bin\Release\nunit.core.interfaces.dll
+C:\Users\Josh\Documents\Visual Studio 2010\Projects\git-extensionista\Extensionista.UnitTests\bin\Release\nunit.core.dll
+C:\Users\Josh\Documents\Visual Studio 2010\Projects\git-extensionista\Extensionista.UnitTests\bin\Release\Extensionista.TestCases.pdb
+C:\Users\Josh\Documents\Visual Studio 2010\Projects\git-extensionista\Extensionista.UnitTests\bin\Release\Extensionista.pdb
+C:\Users\Josh\Documents\Visual Studio 2010\Projects\git-extensionista\Extensionista.UnitTests\bin\Release\Extensionista.xml
+C:\Users\Josh\Documents\Visual Studio 2010\Projects\git-extensionista\Extensionista.UnitTests\obj\Release\Extensionista.UnitTests.csprojResolveAssemblyReference.cache
+C:\Users\Josh\Documents\Visual Studio 2010\Projects\git-extensionista\Extensionista.UnitTests\obj\Release\Extensionista.UnitTests.exe
+C:\Users\Josh\Documents\Visual Studio 2010\Projects\git-extensionista\Extensionista.UnitTests\obj\Release\Extensionista.UnitTests.pdb

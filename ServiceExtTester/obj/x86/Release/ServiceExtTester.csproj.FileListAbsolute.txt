@@ -1,0 +1,1 @@
+C:\Users\Josh\Documents\Visual Studio 2010\Projects\git-extensionista\ServiceExtTester\bin\Release\ServiceExtTester.exe.config

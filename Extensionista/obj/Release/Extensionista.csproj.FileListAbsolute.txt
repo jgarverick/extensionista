@@ -1,0 +1,6 @@
+C:\Users\Josh\Documents\Visual Studio 2010\Projects\git-extensionista\Extensionista\bin\Release\InstallExtensionista.nsi
+C:\Users\Josh\Documents\Visual Studio 2010\Projects\git-extensionista\Extensionista\bin\Release\Extensionista.dll
+C:\Users\Josh\Documents\Visual Studio 2010\Projects\git-extensionista\Extensionista\bin\Release\Extensionista.pdb
+C:\Users\Josh\Documents\Visual Studio 2010\Projects\git-extensionista\Extensionista\obj\Release\Extensionista.dll
+C:\Users\Josh\Documents\Visual Studio 2010\Projects\git-extensionista\Extensionista\obj\Release\Extensionista.pdb
+C:\Users\Josh\Documents\Visual Studio 2010\Projects\git-extensionista\Extensionista\bin\Release\Extensionista.xml
